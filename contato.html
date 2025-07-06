@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato - Ideias para seu Setup</title>
+    <meta name="description" content="Formulário para contato com o criador do site." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Fale conosco</h2>
+        <form id="formContato">
+            <label for="nome">Nome:</label><br />
+            <input type="text" id="nome" name="nome" required /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="mensagem">Mensagem:</label><br />
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br /><br />
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="resultado"></p>
+    </main>
+
+    <footer>
+        <p>© 2025 Gabriel Marco da Silva | <a href="https://github.com/GMS5" target="_blank">GitHub</a> | <a href="https://www.instagram.com/ogabriel.05/" target="_blank">Instagram</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
